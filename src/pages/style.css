@@ -1,0 +1,259 @@
+
+.title
+{
+  position: absolute;
+  left: 16%;
+  top: 22%;
+}
+.title h1
+{
+  font-family: isocpeur;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.title-two
+{
+  position: absolute;
+  left: 16%;
+  top: 32%;
+}
+.title-two h3
+{
+  font-size: 17.7px;
+  font-family: DaMi;
+  font-weight: 400;
+}
+.text-block-one
+{
+  position: absolute;
+  left: 16%;
+  width:  459px;
+}
+.text-block-one span
+{
+  color: #fff;
+  font-family: isocpeur;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.text-block-two
+{
+  position: absolute;
+  width: 413px;
+  right: 5%;
+  top: 46%;
+  float: right;
+  display: grid;
+}
+.text-block-two span
+{
+  color: #fff;
+  font-family: isocpeur;
+  font-size: 17px;
+  letter-spacing: 2px;
+  text-align: right;
+}
+.letter-two
+{
+  letter-spacing: 17px;
+}
+.letter-three
+{
+  letter-spacing: 28px;
+}
+.title .letter-four
+{
+  letter-spacing: 20px;
+}
+/* фото */
+.section-image-position
+{
+  position: absolute;
+  top: 32%;
+  width: 100%;
+  left: 66%;
+  z-index: -1;
+}
+.section-image-o
+{
+  position: absolute;
+}
+.section-image-position-ab
+{
+  position: absolute;
+  width: 40.5%;
+  height: 100%;
+  float: right;
+  display: initial;
+  right: 0;
+  top: 0;
+}
+.section-image
+{
+  transition: .3s;
+  height: 100%;
+}
+.section-image img
+{
+  width: 100%;
+  height: 100%;
+}
+.section-image:hover
+{
+  transform: scale(0.9);
+}
+/* кнопка */
+.button
+{
+  position: absolute;
+  top: 75%;
+  left: 16%;
+}
+.button a
+{
+  font-size: 17px;
+  font-family: isocpeur;
+  background: #262626;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 15px 55px 15px 55px;
+  transition: .3s;
+}
+.button a:hover
+{
+  background: #0A0A0A;
+}
+.container
+{
+  position: absolute;
+  left: 16%;
+  top: 48%;
+}
+.container a,
+.container span
+{
+  color: #fff;
+  text-decoration: none;
+  font-family: isocpeur;
+  font-size: 25px;
+  position: relative;
+  display: block;
+  padding-bottom: 30px;
+  transition: .3s;
+}
+.container a:hover,
+.container span:hover
+{
+  color: #c1c1c1;
+}
+.container a::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  width: 100%;
+  height: 1px;
+  background-color: #262626;
+  content: "";
+  border-radius: 10px;
+}
+.container a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  width: 0;
+  height: 3px;
+  background-color: #ffffff;
+  content: "";
+  transition: width 0.3s;
+  border-radius: 10px;
+}
+
+.container a:hover:after {
+width: 30%;
+}
+.text-two
+{
+  font-size: 20px;
+  color: #B5B5B5;
+}
+.adress
+{
+  position: relative;
+  top: 35px;
+}
+/* навигатор */
+nav
+{
+  color: white;
+  background: #030303;
+  position: absolute;
+  height: 15px;
+  top: 8.5%;
+  left: 6.7%;
+  letter-spacing: 1px;
+  z-index: 999999;
+}
+.logo
+{
+  font-family: DaMi;
+  font-size: 15px;
+  transition: .3s;
+  cursor:context-menu;
+}
+.logo:hover
+{
+  letter-spacing: 5px;
+}
+img
+{
+  -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;
+}
+/* изменение 5 слайда */
+.wrapper-box
+{
+  width: 80%;
+  height: 350px;
+  overflow-y: scroll;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  overflow-x: hidden;
+}
+.wrapper-box::-webkit-scrollbar
+{
+  width: 4px;
+  background: #262626;
+  border-radius: 10px;
+}
+.wrapper-box::-webkit-scrollbar-thumb
+{
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+.prise-list
+{
+  position: absolute;
+  left: 16%;
+  display: inline-grid;
+}
+.text-list
+{
+  font-size: 25px;
+  font-family: isocpeur;
+  margin-top: 7%;
+  left: 5%;
+  position: relative;
+}
+.list
+{
+  display: -webkit-inline-flex;
+  padding-top: 30px;
+  transition: .3s;
+}
+.list:hover
+{
+  transform: translateX(10px);
+}
